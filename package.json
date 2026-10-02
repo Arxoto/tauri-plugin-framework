@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "check:rust": "cargo check --workspace --all-targets",
+    "test:rust": "cargo test -p plugin-framework",
+    "test:worker": "node scripts/worker-harness.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

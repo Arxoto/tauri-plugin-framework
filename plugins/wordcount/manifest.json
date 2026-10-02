@@ -1,0 +1,12 @@
+{
+  "id": "demo.wordcount",
+  "name": "Word Count (JS)",
+  "version": "0.1.0",
+  "description": "Counts words, keeps a history in the shared kv store and emits an event. Runs inside its own Web Worker.",
+  "author": "framework demo",
+  "kind": "js",
+  "runtime": "worker",
+  "entry": "index.js",
+  "methods": ["describe", "count", "history", "reset"],
+  "permissions": ["log", "kv", "emit"]
+}

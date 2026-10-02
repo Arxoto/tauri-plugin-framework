@@ -1,0 +1,12 @@
+{
+  "id": "demo.caller",
+  "name": "Cross-plugin Caller (JS)",
+  "version": "0.1.0",
+  "description": "Shows a JS plugin calling other plugins - both a built-in Rust plugin and another JS plugin - through ctx.callPlugin.",
+  "author": "framework demo",
+  "kind": "js",
+  "runtime": "worker",
+  "entry": "index.js",
+  "methods": ["describe", "ping", "incCounter", "fanout"],
+  "permissions": ["log", "kv", "emit", "call"]
+}

@@ -2516,6 +2516,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "plugin-framework"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "png"
 version = "0.17.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3490,6 +3498,7 @@ dependencies = [
 name = "tauri-plugin-framework"
 version = "0.1.0"
 dependencies = [
+ "plugin-framework",
  "serde",
  "serde_json",
  "tauri",
